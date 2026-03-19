@@ -7,4 +7,5 @@ Similarly, it further provides a structured workflow to access **LSEG Tick Histo
 The goal is to ensure reproducibility, scalability, and clarity in handling high-frequency market microstructure data. 
 
 ## Requirement
-TAQ data subscription in WRDS  
+TAQ data subscription in WRDS: https://wrds-www.wharton.upenn.edu/pages/about/data-vendors/nyse-trade-and-quote-taq/
+Data subscription in LSEG Tick History: https://select.datascope.refinitiv.com/DataScope/
