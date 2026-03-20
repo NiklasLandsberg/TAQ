@@ -47,13 +47,8 @@ DailyQuote <- tbl(wrds, I(paste0("taqm_", year_wrds_iid, ".cqm_", year_wrds_iid)
 DailyTrade <- tbl(wrds, I(paste0("taqm_", year_wrds_iid, ".ctm_", year_wrds_iid))) |>
   filter(date >= taq_start_date & date <= taq_end_date) 
 
-# CONTINUE WITH CLEANING ACCORDING TO HOLDEN AND JACOBSEN (2014); HOLDEN, PIERSON, AND WU (2023) 
-# .
-# .
-# .
-
 # DISCONNECT
-dbDisconnect(con)
+dbDisconnect(wrds)
 
 #-------------------------------------------------------------------------------
 # END --------------------------------------------------------------------------
